@@ -13,29 +13,45 @@ of Engineering in Information Engineering Technology. I am currently workign a C
 This is a site where I document: 
 
 -learned cybersecurity concepts 
+
 -Network and CCNA studies. wherein i try to break down what i learned that day/week. 
+
 -Linux and Bash projects
+
 -Programming Projects 
+
 -probably some Web design. 
+
 -Technical notes and writeups
+
 -Professional growth and learning experiences 
 
 ## Current Interests
 
 -Cybersecurity mostly
+
 -Network Engineering
+
 -Linux Admin
+
 -Bash Scripting
+
 -Automation
+
 -Python
+
 -Java
+
 -C++/C#
 
 ## Featured Projects
 
 -Bash RPG Battle Game
+
 -Networking Labs
+
 -Cybersecurity Exercises
+
 -Future home SOC projects 
 
 ## Recent Posts
