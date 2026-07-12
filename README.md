@@ -56,7 +56,7 @@ This is a site where I document:
 
 ## Recent Posts
 
-Coming soon...
+July 12, 2026 - Building a Warez site 
 
 
 ---
