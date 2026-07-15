@@ -58,6 +58,7 @@ This is a site where I document:
 
 - [July 12, 2026 - Building a WAREZ Site](July%2012,%202026%20-%20Building%20a%20WAREZ%20site)
 - [July 13, 2026 - One Big String](July_13_One_Big_String.md)
+- [July 14, 2026 - One More Time Around...](July_14_2026_One_More_Time_Around)
 
 
 ---
