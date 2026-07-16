@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Journal Entry Title | Terrestrial Technologies</title>
+
+    <style>
+        body {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #111827;
+            color: #e5e7eb;
+            font-family: Courier New, Courier, monospace;
+            line-height: 1.7;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #374151;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            color: #f9fafb;
+        }
+
+        .date {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+
+        article {
+            font-size: 1.05rem;
+        }
+
+        .home-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 20px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .home-button:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a class="home-button" href="/index.html">
+        ← Return to Main Page
+    </a>
+
+    <header>
+        <h1>The LAN Switch Is Hardly Thinking</h1>
+        <p class="date">July 16, 2026</p>
+    </header>
+
+    <main>
+        <article>
+            <p>
+                LAN switching sounds incredibly complex on it's face. Upon close inspection however, 
+It stands as one of the shortest chapters in the offical CCNA study guide. Once you start really 
+paying attention and reading though, it becomes almost painfully simple. Ethernet frames sound like
+an entirely new sub-discipline. MAC address tables bring to mind long and complex tables that one might
+not know how to read. As it happens, it's so simple, anyone can learn it. no wonder it's in part two of 
+the Official guide. 
+            </p>
+
+            <p>
+                One soon finds on reading, that the way Odom defines things, is almost insultingly simple.
+It didn't really hit me until the second read-through of the chapter. I really paid attention to the 
+definition of known unicast fram. In so many words, A known unicast frame is considered a known 
+unicast frame because it is a unicast frame(so it isn't addressed to FFFF.FFFF.FFFF) who's destination is known 
+(already present on a switch's MAC address table.) Given that, I wont insult your intelligence in making you guess 
+how an unknown unicast frame might be defined. Forwarding the frame is the act of sending the frame forward...to
+whatever it's destination might be. Flooding is the act of sending an unknown unicast frame out all ports save 
+the one it arrived through.
+            </p>
+
+            <p>
+                So while the CCNA prep guide loks intimidating, being two thick books- it's actually exceedingly 
+simple as you delve further into it. don't be afraid to pick up a hefty book. Opening it might reveal that the 
+thing that intimidated you was a lot smaller and less intimidating than it initially seemed. Most people, I 
+firmly believe, have the capacity to learn most things, provided they can give it the discipline it requires. 
+More often than not, i've found myself saying- quietly- to myself "well yeah, obviously..." while reading the CCNA
+prep guide, the A+ study guide, linux +, and anything else i've given my time to. 
+            </p>
+
+            <p>
+              A LAN switch is not performing ancient magics. It learns where devices are by studying incoming frames
+and broadcasting outgoing frames until it recieves an affirmative response. IT measures where a frame needs to go 
+against it's table, and either forwards, floods, or ignores it. The terminology sounds large, but the individual decisions
+are hardly thinking at all. 
+        </article>
+    </main>
+
+    <a class="home-button" href="/index.html">
+        ← Return to Main Page
+    </a>
+
+    <footer>
+        <p>Terrestrial Technologies</p>
+    </footer>
+
+</body>
+</html>
