@@ -1,4 +1,8 @@
 # TerrestrialTechnologies.github.io
+
+<div class="terminal-banner"> 
+  <span class="prompt">gavin@terrestrial:-$</span> ./learn-the-whole-computer.sh <span class="cursor">&#9608;</span>
+</div>
 Blog on my journey to learn the whole computer. Will include blog, projects, cybersecurity , etc. 
 
 
