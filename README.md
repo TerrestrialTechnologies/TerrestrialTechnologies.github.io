@@ -64,6 +64,7 @@ This is a site where I document:
 - [July 13, 2026 - One Big String](July_13_One_Big_String.md)
 - [July 14, 2026 - One More Time Around...](July_14_2026_One_More_Time_Around.md)
 - [July 16, 2026 - The Lan Switch Is Hardly Thinking](July_16_2026_The_LAN_Switch_Is_Hardly_Thinking.html)
+- [July 17, 2026 - Hey- What Is A Proxy Anyway?](July_17_2026_What_Is_A_Proxy_Anyway.html)
 
 ---
 
