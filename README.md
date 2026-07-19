@@ -60,11 +60,12 @@ This is a site where I document:
 
 ## Recent Posts
 
-- [July 12, 2026 - Building a WAREZ Site](July%2012,%202026%20-%20Building%20a%20WAREZ%20site.md)
-- [July 13, 2026 - One Big String](July_13_One_Big_String.md)
-- [July 14, 2026 - One More Time Around...](July_14_2026_One_More_Time_Around.md)
-- [July 16, 2026 - The Lan Switch Is Hardly Thinking](July_16_2026_The_LAN_Switch_Is_Hardly_Thinking.html)
-- [July 17, 2026 - Hey- What Is A Proxy Anyway?](July_17_2026_What_Is_A_Proxy_Anyway.html)
+- [July 12, 2026 - Building a WAREZ Site](misc/July%2012,%202026%20-%20Building%20a%20WAREZ%20site.md)
+- [July 13, 2026 - One Big String](misc/July_13_One_Big_String.md)
+- [July 14, 2026 - One More Time Around...](misc/July_14_2026_One_More_Time_Around.md)
+- [July 16, 2026 - The Lan Switch Is Hardly Thinking](misc/July_16_2026_The_LAN_Switch_Is_Hardly_Thinking.html)
+- [July 17, 2026 - Hey- What Is A Proxy Anyway?](misc/July_17_2026_What_Is_A_Proxy_Anyway.html)
+- [July 19, 2026 - ARP and Other Such Beasts of Burden](acronyms/July_19_2026_ARP_And_Other_Such_Beasts_Of_Burden.html)
 
 ---
 
