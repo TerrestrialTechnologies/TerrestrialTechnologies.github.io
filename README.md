@@ -66,6 +66,7 @@ This is a site where I document:
 - [July 16, 2026 - The Lan Switch Is Hardly Thinking](misc/July_16_2026_The_LAN_Switch_Is_Hardly_Thinking.html)
 - [July 17, 2026 - Hey- What Is A Proxy Anyway?](misc/July_17_2026_What_Is_A_Proxy_Anyway.html)
 - [July 19, 2026 - ARP and Other Such Beasts of Burden](acronyms/July_19_2026_ARP_And_Other_Such_Beasts_Of_Burden.html)
+- [July 19, 2026 - If Iran Did It, Why Didn't It Come Back Down?](misc/July_19_2026_If_Iran_Did_It_Why_Didn't_It_Come_Back_Down.html)
 
 ---
 
