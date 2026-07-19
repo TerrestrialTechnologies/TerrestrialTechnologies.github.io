@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Hey, What Is A Proxy Anyway? | Terrestrial Technologies</title>
+
+    <style>
+        body {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #111827;
+            color: #e5e7eb;
+            font-family: Courier New, Courier, monospace;
+            line-height: 1.7;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #374151;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            color: #f9fafb;
+        }
+
+        .date {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+
+        article {
+            font-size: 1.05rem;
+        }
+
+        .home-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 20px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .home-button:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a class="home-button" href="/index.html">
+        ← Return to Main Page
+    </a>
+
+    <header>
+        <h1>Hey, What Is A Proxy Anyway?</h1>
+        <p class="date">July 17, 2026</p>
+    </header>
+
+    <main>
+        <article>
+            <p>
+                  I was reading through my CCNA prep guide these past two days, and I had a flash of insight
+that i'm pretty sure will be just as useful to anyone who has had to wade through this mess of defnitions 
+and reflections on how information travels. It struck me that there were questions in the DIKTA that I had to 
+read 3 or 4 times before I understood- and I realized that for a lot of the acronyms, we're told what they are
+once- maybe twice, and from then on, only the acronym is used- or at least that's what is primarily used. 
+these sections about acronyms are going to be as much for me as they are for everyone else, as I find that 
+spending some time reflecting on each one gives me the repetition I need to absorb it. 
+
+            </p>
+
+            <p>
+                    Without further ado, I would like to start with ARP. This is better known as Address 
+Resolution Protocol. I already have this one down pat, but I find it best to start with what you know and 
+branch out from there. See when one device wants to communicate with another on a local network, just knowing
+the desination IP address isn't really enough. Etheernet delivers data using MAC addresses, so the sending device 
+has to somehow determine which MAC address belongs to the destination IPV4 address. this is primarily the purpose 
+of Address Resolution Protocol. 
+            </p>
+
+            <p>
+                 Before I go any further, I would like to explain quickly that MAC stands for Media Access Control. 
+That's a story for another post, but I thought in the interest of clarifying everything, I would at least put the 
+words on a page. But let's suppose for a moment- that your pc wants to send packets to 192.168.1.20...okay. cool. 
+but it won't just send it to that address. It will first check the ARP cache to determine whether the MAC address 
+is already known and associated with an IP address. If an entry exists, it will send a packet the same direction it 
+has already determined- once again, something for another post. But it gets interesting when it isn't known. 
+            </p>
+
+            <p>
+               So what does it do when there is no entry in the ARP cache? That's simple. it sends an ARP request as 
+a broadcast- that is, it sends it out of all ports - to all devices on the local network. The request is more or less
+just asking "who has 192.168.1.20? what's your MAC address?" Every device receives it- however, only the device whom the
+IP address belongs to responds. It will then be added to the ARP cache. Those packets we mentioned at the beginning can 
+then be sent to the correct device. Just so it cant be said that I didn't mention it, the broadcast address is always 
+going to be FF:FF:FF:FF:FF:FF 
+            </p>
+
+            <p>
+                All of that having been said, ARP only resolves addresses on a local network. Your computer isn't going
+to use ARP to discover the MAC of a remote web server out there on the wild west of the internet. Before any information
+is sent, the computer will use its subnet mask to determine whether the destination is local or remote. 
+            </p>
+                
+            <p>
+                 If you'd like to view your ARP cache, you need only open up your terminal and type "arp -a". The 
+subsequent output will show you The internet address, which will display IPv4 addresses. The next column over will show
+the physical address. Rest assured, this isn't an actual physical address like the Post Office. It will show associated 
+MAC addresses in relation the the aforementioned IPv4 addresses. Last will be a "type" column, which will show you whether
+the entry was generated dynamically and configured manually. A dynamic entry wil have been learned through normal ARP 
+communications. A static entry is manually configured, and not normally expire the same way a dynamic entry might 
+            </p>
+
+          <p>
+              That's all great, but why does ARP matter? Well, without it a device might know the destination of an IPv4
+address but it would not be able to know which local network interface should receive the Ethernet frame. ARP is great 
+because it makes local IPv4 communication possible by connecting the two addressing systems. For the uninitiated, we can 
+just say it's a local address table. like...let's say the IPv4 address is knowing someone's name. their MAC is knowing where 
+they are. you could go door to door asking for Johnny and eventually find him. sure. but you'd look like a crazy person. 
+That being said, if you also knew the address where Johnny was currently residing, you would just go there and ask for 
+Johnny. I hope this has been informative. 
+          </p>
+        </article>
+    </main>
+
+    <a class="home-button" href="/index.html">
+        ← Return to Main Page
+    </a>
+
+    <footer>
+        <p>Terrestrial Technologies</p>
+    </footer>
+
+</body>
+</html>
