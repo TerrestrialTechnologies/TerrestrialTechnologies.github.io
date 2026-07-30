@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Common Ports cheatsheet | Terrestrial Technologies</title>
+
+    <style>
+        body {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #111827;
+            color: #e5e7eb;
+            font-family: Courier New, Courier, monospace;
+            line-height: 1.7;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #374151;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            color: #f9fafb;
+        }
+
+        .date {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+
+        article {
+            font-size: 1.05rem;
+        }
+
+        .home-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 20px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .home-button:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+      table{ 
+          width: 100%;
+          border-collapse: collapse; 
+          margin-top: 25px; 
+        }
+      th,
+      td {   
+          border: 1px solid #374151;
+          padding: 12px; 
+          text-align: left; 
+        }
+      th { 
+          font-size: 1.3rem;
+          font-weight: bold; 
+          color: #f9fafb;
+          background-color: #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a class="home-button" href="/index.html">
+        ← Return to Main Page
+    </a>
+
+    <header>
+        <h1>Common Ports Cheatsheet</h1>
+        <p class="date">July 29, 2026</p>
+    </header>
+
+    <main>
+        <article>
+            <p>
+                 Below, I have attached a table of all common ports, and also a demonstration of subnetting. the
+two seem unrelated at a fundamental level, except that i exercised them both, today. i also learned a great deal 
+about cybersecurity 
+
+
+            </p>
+
+            <table>
+              <thread>
+                    <tr> 
+                      <th>Port</th>
+                      <th>Service</th>
+                      <th>Protocol</th>
+                      <th>Purpose</th>
+                    </tr>
+            </thread> 
+
+            <tbody>
+                <tr> 
+                      <td>20/21</td> 
+                      <td>FTP</td> 
+                      <td>TCP</td>  
+                      <td>File Transfer, data and control</td>
+                </tr>
+
+                <tr> 
+                      <td>22</td> 
+                      <td>SSH</td> 
+                      <td>TCP</td>  
+                      <td>Secure remote admin</td>
+                </tr>
+
+                <tr> 
+                      <td>23</td> 
+                      <td>Telnet</td> 
+                      <td>TCP</td>  
+                      <td>Unencrypted remote access</td>
+                </tr>
+
+                <tr> 
+                      <td>25</td> 
+                      <td>SMTP</td> 
+                      <td>TCP</td>  
+                      <td>Sending email</td>
+                </tr>
+
+                <tr>
+                    <td>53</td>
+                    <td>DNS</td>
+                    <td>TCP/UDP</td>
+                    <td>Resolve domain names to IPs</td>
+                </tr>
+
+                <tr> 
+                    <td>67/68</td>
+                    <td>DHCP</td>
+                    <td>UDP</td>
+                    <td>Assigns IP configs</td>
+                </tr>
+
+                <tr> 
+                    <td>69</td>
+                    <td>TFTP</td>
+                    <td>UDP</td>
+                    <td>Simple file transfer</td> 
+                </tr>
+
+                <tr>
+                    <td>80</td>
+                    <td>HTTP</td>
+                    <td>TCP</td>
+                    <td>Unencrypted web traffic</td>
+                </tr>
+
+                <tr>
+                    <td>88</td>
+                    <td>Kerberos</td>
+                    <td>TCP/UDP</td>
+                    <td>Authentication, commonly used by Active Directory</td>
+                </tr>
+
+                <tr>  
+                    <td>110</td>
+                    <td>POP3</td>
+                    <td>TCP</td>
+                    <td>Dowloading Emails</td> 
+                </tr>
+
+                <tr>
+                    <td>123</td>
+                    <td>NTP</td>
+                    <td>UDP</td>
+                    <td>time sync</td>
+                </tr>
+
+                <tr>
+                    <td>135</td>
+                    <td>RPC Endpoint mapper</td>
+                    <td>TCP</td>
+                    <td>Windows Service communication</td>
+                </tr>
+
+                <tr>
+                    <td>137-139</td>
+                    <td>NetBIOS</td>
+                    <td>TCP/UDP</td>
+                    <td>Legacy windows networking</td> 
+                </tr> 
+
+                <tr>
+                    <td>143</td>
+                    <td>IMAP</td>
+                    <td>TCP</td>
+                    <td>Accesses and manages Email</td>
+                </tr>
+
+                <tr>
+                    <td>161/162</td>
+                    <td>SNMP</td>
+                    <td>UDP</td>
+                    <td>Network monitoring and alerts</td>
+                </tr>
+
+                <tr>
+                    <td>389</td>
+                    <td>LDAP</td>
+                    <td>TCP/UDP</td>
+                    <td>Directory - service queries</td>
+                </tr>
+
+                <tr>
+                    <td>443</td>
+                    <td>HTTPS</td>
+                    <td>TCP</td>      
+                    <td>Encrypted web traffic</td>
+                </tr>
+
+                <tr>   
+                    <td>445</td>
+                    <td>SMB</td>
+                    <td>TCP</td>  
+                    <td>Windows file and printer sharing</td>
+                </tr>
+
+                <tr>
+                    <td>464</td>
+                    <td>Kerberos pswd change</td>    
+                    <td>TCP/UDP</td>
+                    <td>Password Management</td>
+                </tr>
+
+                <tr>
+                    <td>636</td>
+                    <td>LDAPS</td>
+                    <td>TCP</td>      
+                    <td>Encrypted LDAP</td>
+                </tr>
+
+                <tr>
+                    <td>993</td>      
+                    <td>IMAPS</td>
+                    <td>TCP</td>
+                    <td>Encrypted IMAP</td>
+                </tr>
+
+                <tr>
+                    <td>995</td>
+                    <td>POP3S</td>
+                    <td>TCP</td>
+                    <td>Encrypted POP3</td>
+                </tr>
+
+                <tr>
+                    <td>1433</td>
+                    <td>Microsoft SQL Server</td>  
+                    <td>TCP</td>
+                    <td>Database connections</td>
+                </tr>  
+
+                <tr>
+                    <td>3306</td>
+                    <td>MySQL/MariaDB</td>
+                    <td>TCP</td>
+                    <td>Database connections</td>
+                </tr>
+
+                <tr>  
+                    <td>3389</td>
+                    <td>RDP</td>
+                    <td>TCP/UDP</td>
+                    <td>Windows Remote Desktop</td>
+                </tr>
+
+                <tr>
+                    <td>5432</td>
+                    <td>PostgreSQL</td>
+                    <td>TCP</td>
+                    <td>Database Connections</td>
+                </tr>
+            </tbody>
+        </table>
+
+            
+
+        </article>
+    </main>
+
+    <a class="home-button" href="/index.html">
+        ← Return to Main Page
+    </a>
+
+    <footer>
+        <p>Terrestrial Technologies</p>
+    </footer>
+
+</body>
+</html>
